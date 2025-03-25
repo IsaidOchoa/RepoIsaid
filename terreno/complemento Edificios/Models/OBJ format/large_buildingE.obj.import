@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://2yeo5oy2w6kb"
+path="res://.godot/imported/large_buildingE.obj-7e73bb8339dee5511e987fbc9ce3d9cf.mesh"
+
+[deps]
+
+files=["res://.godot/imported/large_buildingE.obj-7e73bb8339dee5511e987fbc9ce3d9cf.mesh"]
+
+source_file="res://terreno/complemento Edificios/Models/OBJ format/large_buildingE.obj"
+dest_files=["res://.godot/imported/large_buildingE.obj-7e73bb8339dee5511e987fbc9ce3d9cf.mesh", "res://.godot/imported/large_buildingE.obj-7e73bb8339dee5511e987fbc9ce3d9cf.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bim1iueedf80c"
+path="res://.godot/imported/light-curved-double.obj-ae1bb0e5db5781a6940029df7373c864.mesh"
+
+[deps]
+
+files=["res://.godot/imported/light-curved-double.obj-ae1bb0e5db5781a6940029df7373c864.mesh"]
+
+source_file="res://terreno/complemento Calles/Models/OBJ format/light-curved-double.obj"
+dest_files=["res://.godot/imported/light-curved-double.obj-ae1bb0e5db5781a6940029df7373c864.mesh", "res://.godot/imported/light-curved-double.obj-ae1bb0e5db5781a6940029df7373c864.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

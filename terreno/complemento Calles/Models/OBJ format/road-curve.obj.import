@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b2ph7loxl3632"
+path="res://.godot/imported/road-curve.obj-955aa8edb5112009d724022082b0019b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/road-curve.obj-955aa8edb5112009d724022082b0019b.mesh"]
+
+source_file="res://terreno/complemento Calles/Models/OBJ format/road-curve.obj"
+dest_files=["res://.godot/imported/road-curve.obj-955aa8edb5112009d724022082b0019b.mesh", "res://.godot/imported/road-curve.obj-955aa8edb5112009d724022082b0019b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

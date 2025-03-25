@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dfgxcnc1x01na"
+path="res://.godot/imported/tool-paddle.obj-fc787633d230fd7d00c41e2ff2c34f8e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tool-paddle.obj-fc787633d230fd7d00c41e2ff2c34f8e.mesh"]
+
+source_file="res://terreno/complemento Terrenos/Models/OBJ format/tool-paddle.obj"
+dest_files=["res://.godot/imported/tool-paddle.obj-fc787633d230fd7d00c41e2ff2c34f8e.mesh", "res://.godot/imported/tool-paddle.obj-fc787633d230fd7d00c41e2ff2c34f8e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

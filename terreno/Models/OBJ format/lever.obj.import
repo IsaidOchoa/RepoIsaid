@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bewrylrg5h6gv"
+path="res://.godot/imported/lever.obj-efe6c03136e7e4f2a0f8c637533ad29c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/lever.obj-efe6c03136e7e4f2a0f8c637533ad29c.mesh"]
+
+source_file="res://terreno/Models/OBJ format/lever.obj"
+dest_files=["res://.godot/imported/lever.obj-efe6c03136e7e4f2a0f8c637533ad29c.mesh", "res://.godot/imported/lever.obj-efe6c03136e7e4f2a0f8c637533ad29c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

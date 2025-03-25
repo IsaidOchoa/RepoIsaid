@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dan7o1pjkfm5h"
+path="res://.godot/imported/road-driveway-double-barrier.obj-7f38fb75f72c905c64c4a03c7077226f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/road-driveway-double-barrier.obj-7f38fb75f72c905c64c4a03c7077226f.mesh"]
+
+source_file="res://terreno/complemento Calles/Models/OBJ format/road-driveway-double-barrier.obj"
+dest_files=["res://.godot/imported/road-driveway-double-barrier.obj-7f38fb75f72c905c64c4a03c7077226f.mesh", "res://.godot/imported/road-driveway-double-barrier.obj-7f38fb75f72c905c64c4a03c7077226f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

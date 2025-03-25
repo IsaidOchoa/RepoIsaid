@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dxv4xsaev02hx"
+path="res://.godot/imported/debris-bolt.obj-3f5648fcb7068c89a1a129574c85e19c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/debris-bolt.obj-3f5648fcb7068c89a1a129574c85e19c.mesh"]
+
+source_file="res://terreno/complemento Autos/Models/OBJ format/debris-bolt.obj"
+dest_files=["res://.godot/imported/debris-bolt.obj-3f5648fcb7068c89a1a129574c85e19c.mesh", "res://.godot/imported/debris-bolt.obj-3f5648fcb7068c89a1a129574c85e19c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

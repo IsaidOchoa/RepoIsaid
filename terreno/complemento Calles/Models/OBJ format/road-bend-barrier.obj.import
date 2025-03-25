@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://26343w7k1nwd"
+path="res://.godot/imported/road-bend-barrier.obj-83e57d635c3dd2eed6a1d9c8d8942092.mesh"
+
+[deps]
+
+files=["res://.godot/imported/road-bend-barrier.obj-83e57d635c3dd2eed6a1d9c8d8942092.mesh"]
+
+source_file="res://terreno/complemento Calles/Models/OBJ format/road-bend-barrier.obj"
+dest_files=["res://.godot/imported/road-bend-barrier.obj-83e57d635c3dd2eed6a1d9c8d8942092.mesh", "res://.godot/imported/road-bend-barrier.obj-83e57d635c3dd2eed6a1d9c8d8942092.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

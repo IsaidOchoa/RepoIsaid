@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cffijp7x4gcva"
+path="res://.godot/imported/block-snow-overhang-large-slope-narrow.obj-109b9094be0f171b1afd2a79a8348bb3.mesh"
+
+[deps]
+
+files=["res://.godot/imported/block-snow-overhang-large-slope-narrow.obj-109b9094be0f171b1afd2a79a8348bb3.mesh"]
+
+source_file="res://terreno/Models/OBJ format/block-snow-overhang-large-slope-narrow.obj"
+dest_files=["res://.godot/imported/block-snow-overhang-large-slope-narrow.obj-109b9094be0f171b1afd2a79a8348bb3.mesh", "res://.godot/imported/block-snow-overhang-large-slope-narrow.obj-109b9094be0f171b1afd2a79a8348bb3.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

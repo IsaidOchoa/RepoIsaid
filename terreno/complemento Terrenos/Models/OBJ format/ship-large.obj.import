@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://btmr0n5xyx845"
+path="res://.godot/imported/ship-large.obj-8b0c667f8ff72e7f6729f0ea16fa1267.mesh"
+
+[deps]
+
+files=["res://.godot/imported/ship-large.obj-8b0c667f8ff72e7f6729f0ea16fa1267.mesh"]
+
+source_file="res://terreno/complemento Terrenos/Models/OBJ format/ship-large.obj"
+dest_files=["res://.godot/imported/ship-large.obj-8b0c667f8ff72e7f6729f0ea16fa1267.mesh", "res://.godot/imported/ship-large.obj-8b0c667f8ff72e7f6729f0ea16fa1267.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bpsx4drwlb5hk"
+path="res://.godot/imported/detail_overhang.obj-b24b2e672e9976fb3d200c8b4968fc43.mesh"
+
+[deps]
+
+files=["res://.godot/imported/detail_overhang.obj-b24b2e672e9976fb3d200c8b4968fc43.mesh"]
+
+source_file="res://terreno/complemento Edificios/Models/OBJ format/detail_overhang.obj"
+dest_files=["res://.godot/imported/detail_overhang.obj-b24b2e672e9976fb3d200c8b4968fc43.mesh", "res://.godot/imported/detail_overhang.obj-b24b2e672e9976fb3d200c8b4968fc43.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

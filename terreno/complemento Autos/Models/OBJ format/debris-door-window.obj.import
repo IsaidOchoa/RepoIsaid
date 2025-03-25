@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ctups7jq11gm3"
+path="res://.godot/imported/debris-door-window.obj-29574a52483ebb3b003c2e614de7a521.mesh"
+
+[deps]
+
+files=["res://.godot/imported/debris-door-window.obj-29574a52483ebb3b003c2e614de7a521.mesh"]
+
+source_file="res://terreno/complemento Autos/Models/OBJ format/debris-door-window.obj"
+dest_files=["res://.godot/imported/debris-door-window.obj-29574a52483ebb3b003c2e614de7a521.mesh", "res://.godot/imported/debris-door-window.obj-29574a52483ebb3b003c2e614de7a521.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c0b6piisgeuvf"
+path="res://.godot/imported/saw.obj-381f207c6c60248692f873a81448ed4d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/saw.obj-381f207c6c60248692f873a81448ed4d.mesh"]
+
+source_file="res://terreno/Models/OBJ format/saw.obj"
+dest_files=["res://.godot/imported/saw.obj-381f207c6c60248692f873a81448ed4d.mesh", "res://.godot/imported/saw.obj-381f207c6c60248692f873a81448ed4d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

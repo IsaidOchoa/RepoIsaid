@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://26ilna5xxmfm"
+path="res://.godot/imported/tower-complete-large.obj-6d567dc91228f1b815dae8f59ffdc6e2.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tower-complete-large.obj-6d567dc91228f1b815dae8f59ffdc6e2.mesh"]
+
+source_file="res://terreno/complemento Terrenos/Models/OBJ format/tower-complete-large.obj"
+dest_files=["res://.godot/imported/tower-complete-large.obj-6d567dc91228f1b815dae8f59ffdc6e2.mesh", "res://.godot/imported/tower-complete-large.obj-6d567dc91228f1b815dae8f59ffdc6e2.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

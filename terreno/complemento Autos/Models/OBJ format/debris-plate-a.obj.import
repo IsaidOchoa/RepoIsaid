@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://wc584geq6s3e"
+path="res://.godot/imported/debris-plate-a.obj-567720ce524e37dcf622f44e5d2a2abf.mesh"
+
+[deps]
+
+files=["res://.godot/imported/debris-plate-a.obj-567720ce524e37dcf622f44e5d2a2abf.mesh"]
+
+source_file="res://terreno/complemento Autos/Models/OBJ format/debris-plate-a.obj"
+dest_files=["res://.godot/imported/debris-plate-a.obj-567720ce524e37dcf622f44e5d2a2abf.mesh", "res://.godot/imported/debris-plate-a.obj-567720ce524e37dcf622f44e5d2a2abf.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

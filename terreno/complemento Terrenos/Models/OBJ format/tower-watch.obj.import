@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://clnf70w5mv853"
+path="res://.godot/imported/tower-watch.obj-fb2fbab492a6e9dae38c66f214720dbc.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tower-watch.obj-fb2fbab492a6e9dae38c66f214720dbc.mesh"]
+
+source_file="res://terreno/complemento Terrenos/Models/OBJ format/tower-watch.obj"
+dest_files=["res://.godot/imported/tower-watch.obj-fb2fbab492a6e9dae38c66f214720dbc.mesh", "res://.godot/imported/tower-watch.obj-fb2fbab492a6e9dae38c66f214720dbc.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

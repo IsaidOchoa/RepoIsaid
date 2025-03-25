@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bayhnybau5a2"
+path="res://.godot/imported/crate-strong.obj-44d12abcbd763417e2a892a09350fc0d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/crate-strong.obj-44d12abcbd763417e2a892a09350fc0d.mesh"]
+
+source_file="res://terreno/Models/OBJ format/crate-strong.obj"
+dest_files=["res://.godot/imported/crate-strong.obj-44d12abcbd763417e2a892a09350fc0d.mesh", "res://.godot/imported/crate-strong.obj-44d12abcbd763417e2a892a09350fc0d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

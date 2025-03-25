@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b30fcfxv4pom2"
+path="res://.godot/imported/debris-spoiler-b.obj-fbbc5f7c7c5e6222b215a9ac574dd82b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/debris-spoiler-b.obj-fbbc5f7c7c5e6222b215a9ac574dd82b.mesh"]
+
+source_file="res://terreno/complemento Autos/Models/OBJ format/debris-spoiler-b.obj"
+dest_files=["res://.godot/imported/debris-spoiler-b.obj-fbbc5f7c7c5e6222b215a9ac574dd82b.mesh", "res://.godot/imported/debris-spoiler-b.obj-fbbc5f7c7c5e6222b215a9ac574dd82b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

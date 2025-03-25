@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c2e86ru5de2gh"
+path="res://.godot/imported/hedge-corner.obj-5de284c504cd70308a48656a549c0beb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/hedge-corner.obj-5de284c504cd70308a48656a549c0beb.mesh"]
+
+source_file="res://terreno/Models/OBJ format/hedge-corner.obj"
+dest_files=["res://.godot/imported/hedge-corner.obj-5de284c504cd70308a48656a549c0beb.mesh", "res://.godot/imported/hedge-corner.obj-5de284c504cd70308a48656a549c0beb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

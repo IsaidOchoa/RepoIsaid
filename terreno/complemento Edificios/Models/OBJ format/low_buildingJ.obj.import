@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cinhpxaicp8m4"
+path="res://.godot/imported/low_buildingJ.obj-59328601e72ff8a60b12b718d0ffeabe.mesh"
+
+[deps]
+
+files=["res://.godot/imported/low_buildingJ.obj-59328601e72ff8a60b12b718d0ffeabe.mesh"]
+
+source_file="res://terreno/complemento Edificios/Models/OBJ format/low_buildingJ.obj"
+dest_files=["res://.godot/imported/low_buildingJ.obj-59328601e72ff8a60b12b718d0ffeabe.mesh", "res://.godot/imported/low_buildingJ.obj-59328601e72ff8a60b12b718d0ffeabe.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

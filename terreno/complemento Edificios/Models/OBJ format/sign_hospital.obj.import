@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b8l3u17w8m37d"
+path="res://.godot/imported/sign_hospital.obj-6748b47cbbaf0d521f81168cd061b91d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/sign_hospital.obj-6748b47cbbaf0d521f81168cd061b91d.mesh"]
+
+source_file="res://terreno/complemento Edificios/Models/OBJ format/sign_hospital.obj"
+dest_files=["res://.godot/imported/sign_hospital.obj-6748b47cbbaf0d521f81168cd061b91d.mesh", "res://.godot/imported/sign_hospital.obj-6748b47cbbaf0d521f81168cd061b91d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

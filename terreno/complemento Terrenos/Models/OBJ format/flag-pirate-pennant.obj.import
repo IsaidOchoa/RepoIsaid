@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://brjed1dgswuxf"
+path="res://.godot/imported/flag-pirate-pennant.obj-4a22eb753eb7b7bcd7cf7cd90f220524.mesh"
+
+[deps]
+
+files=["res://.godot/imported/flag-pirate-pennant.obj-4a22eb753eb7b7bcd7cf7cd90f220524.mesh"]
+
+source_file="res://terreno/complemento Terrenos/Models/OBJ format/flag-pirate-pennant.obj"
+dest_files=["res://.godot/imported/flag-pirate-pennant.obj-4a22eb753eb7b7bcd7cf7cd90f220524.mesh", "res://.godot/imported/flag-pirate-pennant.obj-4a22eb753eb7b7bcd7cf7cd90f220524.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://blkc2him3gjec"
+path="res://.godot/imported/road-intersection.obj-e164fef9da55bea9454708120090946f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/road-intersection.obj-e164fef9da55bea9454708120090946f.mesh"]
+
+source_file="res://terreno/complemento Calles/Models/OBJ format/road-intersection.obj"
+dest_files=["res://.godot/imported/road-intersection.obj-e164fef9da55bea9454708120090946f.mesh", "res://.godot/imported/road-intersection.obj-e164fef9da55bea9454708120090946f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

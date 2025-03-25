@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dgwe4y0o5wmv8"
+path="res://.godot/imported/flag-high.obj-ae786d9ce02eb3f40e166bfea7092d15.mesh"
+
+[deps]
+
+files=["res://.godot/imported/flag-high.obj-ae786d9ce02eb3f40e166bfea7092d15.mesh"]
+
+source_file="res://terreno/complemento Terrenos/Models/OBJ format/flag-high.obj"
+dest_files=["res://.godot/imported/flag-high.obj-ae786d9ce02eb3f40e166bfea7092d15.mesh", "res://.godot/imported/flag-high.obj-ae786d9ce02eb3f40e166bfea7092d15.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

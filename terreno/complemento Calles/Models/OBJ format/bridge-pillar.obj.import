@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://duy21bauwd0up"
+path="res://.godot/imported/bridge-pillar.obj-b33313d184b695d099faf29d6b012f91.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bridge-pillar.obj-b33313d184b695d099faf29d6b012f91.mesh"]
+
+source_file="res://terreno/complemento Calles/Models/OBJ format/bridge-pillar.obj"
+dest_files=["res://.godot/imported/bridge-pillar.obj-b33313d184b695d099faf29d6b012f91.mesh", "res://.godot/imported/bridge-pillar.obj-b33313d184b695d099faf29d6b012f91.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

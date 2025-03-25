@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://llxaxr6hcgph"
+path="res://.godot/imported/flag-pirate-high.obj-443fe8e312ed554a9e75fbc022395083.mesh"
+
+[deps]
+
+files=["res://.godot/imported/flag-pirate-high.obj-443fe8e312ed554a9e75fbc022395083.mesh"]
+
+source_file="res://terreno/complemento Terrenos/Models/OBJ format/flag-pirate-high.obj"
+dest_files=["res://.godot/imported/flag-pirate-high.obj-443fe8e312ed554a9e75fbc022395083.mesh", "res://.godot/imported/flag-pirate-high.obj-443fe8e312ed554a9e75fbc022395083.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

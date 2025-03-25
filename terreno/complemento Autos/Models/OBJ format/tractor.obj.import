@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ctqct3wkgkfok"
+path="res://.godot/imported/tractor.obj-72aed1d467060f82c2014f4319e58b86.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tractor.obj-72aed1d467060f82c2014f4319e58b86.mesh"]
+
+source_file="res://terreno/complemento Autos/Models/OBJ format/tractor.obj"
+dest_files=["res://.godot/imported/tractor.obj-72aed1d467060f82c2014f4319e58b86.mesh", "res://.godot/imported/tractor.obj-72aed1d467060f82c2014f4319e58b86.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

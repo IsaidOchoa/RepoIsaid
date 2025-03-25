@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://05hea16sjbgx"
+path="res://.godot/imported/detail_umbrella.obj-e905e8233ebcedbcbf6f05ddddda7d7e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/detail_umbrella.obj-e905e8233ebcedbcbf6f05ddddda7d7e.mesh"]
+
+source_file="res://terreno/complemento Edificios/Models/OBJ format/detail_umbrella.obj"
+dest_files=["res://.godot/imported/detail_umbrella.obj-e905e8233ebcedbcbf6f05ddddda7d7e.mesh", "res://.godot/imported/detail_umbrella.obj-e905e8233ebcedbcbf6f05ddddda7d7e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

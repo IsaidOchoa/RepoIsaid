@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cd38dx8ihwdra"
+path="res://.godot/imported/tractor-police.obj-0753443f9940b4ca1a97b66d4ef7c978.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tractor-police.obj-0753443f9940b4ca1a97b66d4ef7c978.mesh"]
+
+source_file="res://terreno/complemento Autos/Models/OBJ format/tractor-police.obj"
+dest_files=["res://.godot/imported/tractor-police.obj-0753443f9940b4ca1a97b66d4ef7c978.mesh", "res://.godot/imported/tractor-police.obj-0753443f9940b4ca1a97b66d4ef7c978.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

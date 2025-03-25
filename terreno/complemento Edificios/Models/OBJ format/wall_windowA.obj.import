@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://0kfot34g4hwy"
+path="res://.godot/imported/wall_windowA.obj-22556b5f7888c1a1b414e429ecee06ba.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wall_windowA.obj-22556b5f7888c1a1b414e429ecee06ba.mesh"]
+
+source_file="res://terreno/complemento Edificios/Models/OBJ format/wall_windowA.obj"
+dest_files=["res://.godot/imported/wall_windowA.obj-22556b5f7888c1a1b414e429ecee06ba.mesh", "res://.godot/imported/wall_windowA.obj-22556b5f7888c1a1b414e429ecee06ba.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

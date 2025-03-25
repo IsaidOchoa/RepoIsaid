@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dtrjcf5s8gckt"
+path="res://.godot/imported/construction-barrier.obj-ed44e4a7685c808bffaf3eebddb999bb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/construction-barrier.obj-ed44e4a7685c808bffaf3eebddb999bb.mesh"]
+
+source_file="res://terreno/complemento Calles/Models/OBJ format/construction-barrier.obj"
+dest_files=["res://.godot/imported/construction-barrier.obj-ed44e4a7685c808bffaf3eebddb999bb.mesh", "res://.godot/imported/construction-barrier.obj-ed44e4a7685c808bffaf3eebddb999bb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

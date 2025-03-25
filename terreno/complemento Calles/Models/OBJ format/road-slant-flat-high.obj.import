@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dmnr83086accg"
+path="res://.godot/imported/road-slant-flat-high.obj-41f0a6abc7d7e11df4d2cb2b77317189.mesh"
+
+[deps]
+
+files=["res://.godot/imported/road-slant-flat-high.obj-41f0a6abc7d7e11df4d2cb2b77317189.mesh"]
+
+source_file="res://terreno/complemento Calles/Models/OBJ format/road-slant-flat-high.obj"
+dest_files=["res://.godot/imported/road-slant-flat-high.obj-41f0a6abc7d7e11df4d2cb2b77317189.mesh", "res://.godot/imported/road-slant-flat-high.obj-41f0a6abc7d7e11df4d2cb2b77317189.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

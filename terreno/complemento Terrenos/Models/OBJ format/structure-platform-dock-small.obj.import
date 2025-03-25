@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b3xg4dolkirpm"
+path="res://.godot/imported/structure-platform-dock-small.obj-21796d3f9a0e58121779c4e3bc6a9030.mesh"
+
+[deps]
+
+files=["res://.godot/imported/structure-platform-dock-small.obj-21796d3f9a0e58121779c4e3bc6a9030.mesh"]
+
+source_file="res://terreno/complemento Terrenos/Models/OBJ format/structure-platform-dock-small.obj"
+dest_files=["res://.godot/imported/structure-platform-dock-small.obj-21796d3f9a0e58121779c4e3bc6a9030.mesh", "res://.godot/imported/structure-platform-dock-small.obj-21796d3f9a0e58121779c4e3bc6a9030.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

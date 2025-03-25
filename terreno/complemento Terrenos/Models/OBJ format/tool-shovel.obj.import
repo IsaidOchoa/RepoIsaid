@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://q76lvb208eer"
+path="res://.godot/imported/tool-shovel.obj-8b688200fa8a6c6d1d33e1077feece55.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tool-shovel.obj-8b688200fa8a6c6d1d33e1077feece55.mesh"]
+
+source_file="res://terreno/complemento Terrenos/Models/OBJ format/tool-shovel.obj"
+dest_files=["res://.godot/imported/tool-shovel.obj-8b688200fa8a6c6d1d33e1077feece55.mesh", "res://.godot/imported/tool-shovel.obj-8b688200fa8a6c6d1d33e1077feece55.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

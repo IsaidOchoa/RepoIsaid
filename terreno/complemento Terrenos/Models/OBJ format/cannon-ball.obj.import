@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://de13of4ud0v8w"
+path="res://.godot/imported/cannon-ball.obj-a1b7b05996ef3689720a59e84ae09e5e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cannon-ball.obj-a1b7b05996ef3689720a59e84ae09e5e.mesh"]
+
+source_file="res://terreno/complemento Terrenos/Models/OBJ format/cannon-ball.obj"
+dest_files=["res://.godot/imported/cannon-ball.obj-a1b7b05996ef3689720a59e84ae09e5e.mesh", "res://.godot/imported/cannon-ball.obj-a1b7b05996ef3689720a59e84ae09e5e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

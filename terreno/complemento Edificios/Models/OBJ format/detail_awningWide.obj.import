@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c5uud3ja01olh"
+path="res://.godot/imported/detail_awningWide.obj-d78e7fc4d71790d14b12c2b53ed5e872.mesh"
+
+[deps]
+
+files=["res://.godot/imported/detail_awningWide.obj-d78e7fc4d71790d14b12c2b53ed5e872.mesh"]
+
+source_file="res://terreno/complemento Edificios/Models/OBJ format/detail_awningWide.obj"
+dest_files=["res://.godot/imported/detail_awningWide.obj-d78e7fc4d71790d14b12c2b53ed5e872.mesh", "res://.godot/imported/detail_awningWide.obj-d78e7fc4d71790d14b12c2b53ed5e872.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

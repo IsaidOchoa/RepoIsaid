@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://6ameqiejlohd"
+path="res://.godot/imported/rocks-sand-a.obj-78e94f0e71a3771ec6ff65e7c707657c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/rocks-sand-a.obj-78e94f0e71a3771ec6ff65e7c707657c.mesh"]
+
+source_file="res://terreno/complemento Terrenos/Models/OBJ format/rocks-sand-a.obj"
+dest_files=["res://.godot/imported/rocks-sand-a.obj-78e94f0e71a3771ec6ff65e7c707657c.mesh", "res://.godot/imported/rocks-sand-a.obj-78e94f0e71a3771ec6ff65e7c707657c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

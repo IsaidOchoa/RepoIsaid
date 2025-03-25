@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b38522oci2wx0"
+path="res://.godot/imported/bottle-large.obj-1db4a2cdfeaabc2546ba85065c5f5b2c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bottle-large.obj-1db4a2cdfeaabc2546ba85065c5f5b2c.mesh"]
+
+source_file="res://terreno/complemento Terrenos/Models/OBJ format/bottle-large.obj"
+dest_files=["res://.godot/imported/bottle-large.obj-1db4a2cdfeaabc2546ba85065c5f5b2c.mesh", "res://.godot/imported/bottle-large.obj-1db4a2cdfeaabc2546ba85065c5f5b2c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ba20awbm2fogb"
+path="res://.godot/imported/wall_doorA.obj-89b5be040f84efc86faf9a54a749a947.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wall_doorA.obj-89b5be040f84efc86faf9a54a749a947.mesh"]
+
+source_file="res://terreno/complemento Edificios/Models/OBJ format/wall_doorA.obj"
+dest_files=["res://.godot/imported/wall_doorA.obj-89b5be040f84efc86faf9a54a749a947.mesh", "res://.godot/imported/wall_doorA.obj-89b5be040f84efc86faf9a54a749a947.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bthj3ejfmj2yv"
+path="res://.godot/imported/road-split.obj-2efa6f62fd4cbf9a8b895feec0a83207.mesh"
+
+[deps]
+
+files=["res://.godot/imported/road-split.obj-2efa6f62fd4cbf9a8b895feec0a83207.mesh"]
+
+source_file="res://terreno/complemento Calles/Models/OBJ format/road-split.obj"
+dest_files=["res://.godot/imported/road-split.obj-2efa6f62fd4cbf9a8b895feec0a83207.mesh", "res://.godot/imported/road-split.obj-2efa6f62fd4cbf9a8b895feec0a83207.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

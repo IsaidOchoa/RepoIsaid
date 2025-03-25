@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bms36b4a5s4sf"
+path="res://.godot/imported/road-crossroad-barrier.obj-04f6d76f34a98d58562d3556ee2ff859.mesh"
+
+[deps]
+
+files=["res://.godot/imported/road-crossroad-barrier.obj-04f6d76f34a98d58562d3556ee2ff859.mesh"]
+
+source_file="res://terreno/complemento Calles/Models/OBJ format/road-crossroad-barrier.obj"
+dest_files=["res://.godot/imported/road-crossroad-barrier.obj-04f6d76f34a98d58562d3556ee2ff859.mesh", "res://.godot/imported/road-crossroad-barrier.obj-04f6d76f34a98d58562d3556ee2ff859.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

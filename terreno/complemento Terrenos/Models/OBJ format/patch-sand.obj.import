@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c5awfk08e6f0j"
+path="res://.godot/imported/patch-sand.obj-64c3fc224b7d6657463e5c6b3609ae74.mesh"
+
+[deps]
+
+files=["res://.godot/imported/patch-sand.obj-64c3fc224b7d6657463e5c6b3609ae74.mesh"]
+
+source_file="res://terreno/complemento Terrenos/Models/OBJ format/patch-sand.obj"
+dest_files=["res://.godot/imported/patch-sand.obj-64c3fc224b7d6657463e5c6b3609ae74.mesh", "res://.godot/imported/patch-sand.obj-64c3fc224b7d6657463e5c6b3609ae74.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

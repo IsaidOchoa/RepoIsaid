@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://by5p7cc8i46nr"
+path="res://.godot/imported/block-grass-hexagon.obj-dce7936c1ede9b568b40b3b602864753.mesh"
+
+[deps]
+
+files=["res://.godot/imported/block-grass-hexagon.obj-dce7936c1ede9b568b40b3b602864753.mesh"]
+
+source_file="res://terreno/Models/OBJ format/block-grass-hexagon.obj"
+dest_files=["res://.godot/imported/block-grass-hexagon.obj-dce7936c1ede9b568b40b3b602864753.mesh", "res://.godot/imported/block-grass-hexagon.obj-dce7936c1ede9b568b40b3b602864753.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b18t7sgg6djkv"
+path="res://.godot/imported/sign.obj-c2c57f6d96f103231ba1a1900dda18da.mesh"
+
+[deps]
+
+files=["res://.godot/imported/sign.obj-c2c57f6d96f103231ba1a1900dda18da.mesh"]
+
+source_file="res://terreno/Models/OBJ format/sign.obj"
+dest_files=["res://.godot/imported/sign.obj-c2c57f6d96f103231ba1a1900dda18da.mesh", "res://.godot/imported/sign.obj-c2c57f6d96f103231ba1a1900dda18da.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

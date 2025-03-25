@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bxr4io6hig65g"
+path="res://.godot/imported/road-slant-curve.obj-0f32ba6ef657f2d25da9f6c2004e9ec9.mesh"
+
+[deps]
+
+files=["res://.godot/imported/road-slant-curve.obj-0f32ba6ef657f2d25da9f6c2004e9ec9.mesh"]
+
+source_file="res://terreno/complemento Calles/Models/OBJ format/road-slant-curve.obj"
+dest_files=["res://.godot/imported/road-slant-curve.obj-0f32ba6ef657f2d25da9f6c2004e9ec9.mesh", "res://.godot/imported/road-slant-curve.obj-0f32ba6ef657f2d25da9f6c2004e9ec9.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

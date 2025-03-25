@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dx66k5vu58ol2"
+path="res://.godot/imported/trap-spikes.obj-2def60d87fb9587f8537f8debfd7112d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/trap-spikes.obj-2def60d87fb9587f8537f8debfd7112d.mesh"]
+
+source_file="res://terreno/Models/OBJ format/trap-spikes.obj"
+dest_files=["res://.godot/imported/trap-spikes.obj-2def60d87fb9587f8537f8debfd7112d.mesh", "res://.godot/imported/trap-spikes.obj-2def60d87fb9587f8537f8debfd7112d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

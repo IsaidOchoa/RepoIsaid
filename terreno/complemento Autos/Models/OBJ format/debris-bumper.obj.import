@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ba13ltuoq6x11"
+path="res://.godot/imported/debris-bumper.obj-70ffc6fa6618607123472f6335858f54.mesh"
+
+[deps]
+
+files=["res://.godot/imported/debris-bumper.obj-70ffc6fa6618607123472f6335858f54.mesh"]
+
+source_file="res://terreno/complemento Autos/Models/OBJ format/debris-bumper.obj"
+dest_files=["res://.godot/imported/debris-bumper.obj-70ffc6fa6618607123472f6335858f54.mesh", "res://.godot/imported/debris-bumper.obj-70ffc6fa6618607123472f6335858f54.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

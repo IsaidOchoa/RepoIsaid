@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://8wcc70v0rwqp"
+path="res://.godot/imported/structure-roof.obj-7ca0a0acb8867c880bcecd87e248875a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/structure-roof.obj-7ca0a0acb8867c880bcecd87e248875a.mesh"]
+
+source_file="res://terreno/complemento Terrenos/Models/OBJ format/structure-roof.obj"
+dest_files=["res://.godot/imported/structure-roof.obj-7ca0a0acb8867c880bcecd87e248875a.mesh", "res://.godot/imported/structure-roof.obj-7ca0a0acb8867c880bcecd87e248875a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

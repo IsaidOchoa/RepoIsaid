@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://kjapitirrxje"
+path="res://.godot/imported/crate-bottles.obj-a6f351b2559edee49df0673715f4cf14.mesh"
+
+[deps]
+
+files=["res://.godot/imported/crate-bottles.obj-a6f351b2559edee49df0673715f4cf14.mesh"]
+
+source_file="res://terreno/complemento Terrenos/Models/OBJ format/crate-bottles.obj"
+dest_files=["res://.godot/imported/crate-bottles.obj-a6f351b2559edee49df0673715f4cf14.mesh", "res://.godot/imported/crate-bottles.obj-a6f351b2559edee49df0673715f4cf14.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

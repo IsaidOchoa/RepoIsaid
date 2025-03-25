@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b0l1kuhwqbp2b"
+path="res://.godot/imported/road-end-round-barrier.obj-9d52bba58f0ed2d5fbb22f1e84fda80c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/road-end-round-barrier.obj-9d52bba58f0ed2d5fbb22f1e84fda80c.mesh"]
+
+source_file="res://terreno/complemento Calles/Models/OBJ format/road-end-round-barrier.obj"
+dest_files=["res://.godot/imported/road-end-round-barrier.obj-9d52bba58f0ed2d5fbb22f1e84fda80c.mesh", "res://.godot/imported/road-end-round-barrier.obj-9d52bba58f0ed2d5fbb22f1e84fda80c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

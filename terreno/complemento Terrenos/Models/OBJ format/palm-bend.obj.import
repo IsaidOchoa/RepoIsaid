@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d0slyid7pvywa"
+path="res://.godot/imported/palm-bend.obj-2a8cbfd18afe37c0fe8d158f607de152.mesh"
+
+[deps]
+
+files=["res://.godot/imported/palm-bend.obj-2a8cbfd18afe37c0fe8d158f607de152.mesh"]
+
+source_file="res://terreno/complemento Terrenos/Models/OBJ format/palm-bend.obj"
+dest_files=["res://.godot/imported/palm-bend.obj-2a8cbfd18afe37c0fe8d158f607de152.mesh", "res://.godot/imported/palm-bend.obj-2a8cbfd18afe37c0fe8d158f607de152.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

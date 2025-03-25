@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bmtrah6mdtrd"
+path="res://.godot/imported/block-snow-curve.obj-f4d9b1808315a16838ab48f93a8ccf2f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/block-snow-curve.obj-f4d9b1808315a16838ab48f93a8ccf2f.mesh"]
+
+source_file="res://terreno/Models/OBJ format/block-snow-curve.obj"
+dest_files=["res://.godot/imported/block-snow-curve.obj-f4d9b1808315a16838ab48f93a8ccf2f.mesh", "res://.godot/imported/block-snow-curve.obj-f4d9b1808315a16838ab48f93a8ccf2f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

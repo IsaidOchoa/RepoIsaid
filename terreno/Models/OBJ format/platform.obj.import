@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c31iywvcktmaw"
+path="res://.godot/imported/platform.obj-3b46b7aa7905f76c889c280cf2b04c05.mesh"
+
+[deps]
+
+files=["res://.godot/imported/platform.obj-3b46b7aa7905f76c889c280cf2b04c05.mesh"]
+
+source_file="res://terreno/Models/OBJ format/platform.obj"
+dest_files=["res://.godot/imported/platform.obj-3b46b7aa7905f76c889c280cf2b04c05.mesh", "res://.godot/imported/platform.obj-3b46b7aa7905f76c889c280cf2b04c05.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

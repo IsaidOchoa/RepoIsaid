@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d2326ml5qposs"
+path="res://.godot/imported/road-split-barrier.obj-94f0b22158973c073cfb0956b8f9308e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/road-split-barrier.obj-94f0b22158973c073cfb0956b8f9308e.mesh"]
+
+source_file="res://terreno/complemento Calles/Models/OBJ format/road-split-barrier.obj"
+dest_files=["res://.godot/imported/road-split-barrier.obj-94f0b22158973c073cfb0956b8f9308e.mesh", "res://.godot/imported/road-split-barrier.obj-94f0b22158973c073cfb0956b8f9308e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

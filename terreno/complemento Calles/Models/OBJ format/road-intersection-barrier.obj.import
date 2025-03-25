@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://erslussa6g7e"
+path="res://.godot/imported/road-intersection-barrier.obj-f7118ea7e52edb8b56c13107e1e22ada.mesh"
+
+[deps]
+
+files=["res://.godot/imported/road-intersection-barrier.obj-f7118ea7e52edb8b56c13107e1e22ada.mesh"]
+
+source_file="res://terreno/complemento Calles/Models/OBJ format/road-intersection-barrier.obj"
+dest_files=["res://.godot/imported/road-intersection-barrier.obj-f7118ea7e52edb8b56c13107e1e22ada.mesh", "res://.godot/imported/road-intersection-barrier.obj-f7118ea7e52edb8b56c13107e1e22ada.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

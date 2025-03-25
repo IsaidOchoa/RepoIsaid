@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d0ww1xmom1d4x"
+path="res://.godot/imported/road-roundabout.obj-895948b5878a54abdb3dfdabfc638cde.mesh"
+
+[deps]
+
+files=["res://.godot/imported/road-roundabout.obj-895948b5878a54abdb3dfdabfc638cde.mesh"]
+
+source_file="res://terreno/complemento Calles/Models/OBJ format/road-roundabout.obj"
+dest_files=["res://.godot/imported/road-roundabout.obj-895948b5878a54abdb3dfdabfc638cde.mesh", "res://.godot/imported/road-roundabout.obj-895948b5878a54abdb3dfdabfc638cde.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

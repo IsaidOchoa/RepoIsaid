@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bp0nk42dly0qk"
+path="res://.godot/imported/sign-highway.obj-4383d37959dcd3c6f68d06779a3d4ee6.mesh"
+
+[deps]
+
+files=["res://.godot/imported/sign-highway.obj-4383d37959dcd3c6f68d06779a3d4ee6.mesh"]
+
+source_file="res://terreno/complemento Calles/Models/OBJ format/sign-highway.obj"
+dest_files=["res://.godot/imported/sign-highway.obj-4383d37959dcd3c6f68d06779a3d4ee6.mesh", "res://.godot/imported/sign-highway.obj-4383d37959dcd3c6f68d06779a3d4ee6.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

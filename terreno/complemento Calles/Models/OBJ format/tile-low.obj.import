@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b0v8bjjj1fa5a"
+path="res://.godot/imported/tile-low.obj-4014c315f20a5e4dab685e526f9e2d20.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tile-low.obj-4014c315f20a5e4dab685e526f9e2d20.mesh"]
+
+source_file="res://terreno/complemento Calles/Models/OBJ format/tile-low.obj"
+dest_files=["res://.godot/imported/tile-low.obj-4014c315f20a5e4dab685e526f9e2d20.mesh", "res://.godot/imported/tile-low.obj-4014c315f20a5e4dab685e526f9e2d20.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

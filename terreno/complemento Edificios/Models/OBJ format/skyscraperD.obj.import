@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://8hulsqdv68xl"
+path="res://.godot/imported/skyscraperD.obj-103d177b8045139202e883924c59b475.mesh"
+
+[deps]
+
+files=["res://.godot/imported/skyscraperD.obj-103d177b8045139202e883924c59b475.mesh"]
+
+source_file="res://terreno/complemento Edificios/Models/OBJ format/skyscraperD.obj"
+dest_files=["res://.godot/imported/skyscraperD.obj-103d177b8045139202e883924c59b475.mesh", "res://.godot/imported/skyscraperD.obj-103d177b8045139202e883924c59b475.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
