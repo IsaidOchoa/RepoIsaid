@@ -1,6 +1,6 @@
 [gd_scene load_steps=21 format=3 uid="uid://c57j8kk4h0e4e"]
 
-[ext_resource type="Shader" path="res://mundo.gdshader" id="1_gkpbq"]
+[ext_resource type="Shader" uid="uid://cngq07g76wa7l" path="res://mundo.gdshader" id="1_gkpbq"]
 [ext_resource type="MeshLibrary" uid="uid://dfdmd68peu4yd" path="res://terreno/modelos.tres" id="2_g8a5c"]
 [ext_resource type="PackedScene" uid="uid://djgm4up7p6hui" path="res://terreno/complemento Terrenos/Models/FBX format/patch-sand.fbx" id="3_6eh68"]
 [ext_resource type="PackedScene" uid="uid://l66ra4gqr16e" path="res://terreno/complemento Terrenos/Models/FBX format/patch-grass.fbx" id="4_qatul"]

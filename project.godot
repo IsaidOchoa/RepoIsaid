@@ -11,9 +11,18 @@ config_version=5
 [application]
 
 config/name="Mundo.1"
-run/main_scene="res://Mundo.tscn"
-config/features=PackedStringArray("4.3", "Mobile")
+run/main_scene="uid://bn3oc7flm6il3"
+config/features=PackedStringArray("4.4", "Mobile")
 config/icon="res://icon.svg"
+
+[autoload]
+
+Firebase="*res://addons/godot-firebase/firebase/firebase.tscn"
+GlobalData="*res://scrips/GlobalData.gd"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/godot-firebase/plugin.cfg", "res://addons/http-sse-client/plugin.cfg")
 
 [filesystem]
 
