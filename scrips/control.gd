@@ -43,5 +43,6 @@ var firebase_errores = {
 	"INVALID_VERIFICATION_CODE": "El código de verificación no es válido.",
 	"INVALID_ID_TOKEN": "El token de sesión es inválido o ha expirado.",
 	"NETWORK_REQUEST_FAILED": "Error de conexión. Revisa tu conexión a Internet.",
+	"INVALID_LOGIN_CREDENTIALS":"Correo o contraseña invalidos.",
 	"WEAK_PASSWORD : Password should be at least 6 characters" : "La contraseña debe tener al menos 6 caracteres."
 }

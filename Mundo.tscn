@@ -1,6 +1,7 @@
-[gd_scene load_steps=21 format=3 uid="uid://c57j8kk4h0e4e"]
+[gd_scene load_steps=23 format=3 uid="uid://c57j8kk4h0e4e"]
 
 [ext_resource type="Shader" uid="uid://cngq07g76wa7l" path="res://mundo.gdshader" id="1_gkpbq"]
+[ext_resource type="Script" uid="uid://cectcb3i57cu8" path="res://scrips/mundo.gd" id="1_syf7j"]
 [ext_resource type="MeshLibrary" uid="uid://dfdmd68peu4yd" path="res://terreno/modelos.tres" id="2_g8a5c"]
 [ext_resource type="PackedScene" uid="uid://djgm4up7p6hui" path="res://terreno/complemento Terrenos/Models/FBX format/patch-sand.fbx" id="3_6eh68"]
 [ext_resource type="PackedScene" uid="uid://l66ra4gqr16e" path="res://terreno/complemento Terrenos/Models/FBX format/patch-grass.fbx" id="4_qatul"]
@@ -59,8 +60,12 @@ shader_parameter/height = 2.0
 shader_parameter/wave_size = Vector2(2, 2)
 shader_parameter/wave_speed = 1.0
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_syf7j"]
+size = Vector3(12.0154, 7.24524, 12.6271)
+
 [node name="Mundo" type="Node3D"]
-transform = Transform3D(0.998827, 0, 0, 0, 0.998827, 0, 0, 0, 0.998827, 0.08055, -1.90735e-06, 0.00136185)
+transform = Transform3D(-0.88675, 0, -0.459706, 0, 0.998827, 0, 0.459706, 0, -0.88675, 0.08055, -1.90735e-06, 0.00136185)
+script = ExtResource("1_syf7j")
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_n2q4y")
@@ -145,6 +150,12 @@ transform = Transform3D(-7.4753, 0, 18.5505, 0, 5, 0, -18.5505, 0, -7.4753, -302
 [node name="Casa" parent="Entorno/Construcciones" instance=ExtResource("8_rvffb")]
 transform = Transform3D(-1.99915, 0, -0.0518975, 0, 2.662, 0, 0.058181, 0, -1.78325, 56.1938, 6.38529, -108.833)
 
+[node name="Area3D" type="Area3D" parent="Entorno/Construcciones/Casa"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Entorno/Construcciones/Casa/Area3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, -3.78489e-06, 0, 1, 4.91791, 4.37305, -4.33022)
+shape = SubResource("BoxShape3D_syf7j")
+
 [node name="Escuela_Frente (1)2" parent="Entorno/Construcciones" instance=ExtResource("10_5lbaf")]
 transform = Transform3D(-3.99984, 0, -0.0358144, 0, 4, 0, 0.0358144, 0, -3.99984, -11.4025, 14.3699, -7.79043)
 
@@ -176,3 +187,6 @@ metadata/_editor_floor_ = Vector3(0, 1, 0)
 transform = Transform3D(-48.4292, 7.13083, -10.1864, -0.252813, 40.3878, 29.4747, 12.4317, 28.6002, -39.083, -119.791, 200.285, -232.389)
 
 [node name="Camera3D" type="Camera3D" parent="Camara"]
+transform = Transform3D(0.0195773, 0.0024761, -0.00339669, -0.00247973, 0.0198685, 0.000191207, 0.00339404, 0.000233709, 0.0197324, -1.526, -0.0342753, -2.58454)
+
+[connection signal="input_event" from="Entorno/Construcciones/Casa/Area3D" to="." method="_on_area_3d_input_event"]

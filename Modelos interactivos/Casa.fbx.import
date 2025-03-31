@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/Casa.fbx-3e0e8e57291612e468460afbe01e6677.scn
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="Node3D"
 nodes/root_name=""
 nodes/apply_root_scale=true
 nodes/root_scale=1.0

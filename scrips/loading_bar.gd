@@ -21,7 +21,7 @@ func new_data_updated(data):
 	# Accede directamente a las propiedades sin hacer cast
 	if data.key != null and data.data != null:
 		GlobalData.hospital_data[data.key] = data.data
-		print("Datos actualizados en GlobalData:", GlobalData.hospital_data)
+		#print("Datos actualizados en GlobalData:", GlobalData.hospital_data)
 
 func patch_data_updated(data):
 	print("patch data")
@@ -30,7 +30,7 @@ func patch_data_updated(data):
 	# Accede directamente a las propiedades
 	if data.key != null and data.data != null:
 		GlobalData.hospital_data[data.key] = data.data
-		print("Datos actualizados en GlobalData:", GlobalData.hospital_data)
+		#print("Datos actualizados en GlobalData:", GlobalData.hospital_data)
 
 func _on_timer_timeout():
 	get_tree().change_scene_to_file("res://Mundo.tscn")
