@@ -1,4 +1,4 @@
-[gd_scene load_steps=23 format=3 uid="uid://c57j8kk4h0e4e"]
+[gd_scene load_steps=25 format=3 uid="uid://c57j8kk4h0e4e"]
 
 [ext_resource type="Shader" uid="uid://cngq07g76wa7l" path="res://mundo.gdshader" id="1_gkpbq"]
 [ext_resource type="Script" uid="uid://cectcb3i57cu8" path="res://scrips/mundo.gd" id="1_syf7j"]
@@ -9,11 +9,13 @@
 [ext_resource type="PackedScene" uid="uid://dx5dqjk6087vd" path="res://terreno/complemento Terrenos/Models/FBX format/rocks-b.fbx" id="6_ntaqy"]
 [ext_resource type="PackedScene" uid="uid://cmf00mfy4e01q" path="res://terreno/complemento Terrenos/Models/FBX format/rocks-c.fbx" id="7_p8fee"]
 [ext_resource type="PackedScene" uid="uid://f6q67q1gmscn" path="res://Modelos interactivos/Casa.fbx" id="8_rvffb"]
+[ext_resource type="PackedScene" uid="uid://y6qtdidjc6kn" path="res://Modelos interactivos/CasaInterior.glb" id="9_1pedo"]
 [ext_resource type="PackedScene" uid="uid://cqm4tsoonxb65" path="res://Modelos interactivos/Escuela_Frente (1).glb" id="10_5lbaf"]
 [ext_resource type="PackedScene" uid="uid://dgjn2hhv3ukcg" path="res://Modelos interactivos/Dinobucks.glb" id="10_84ukn"]
-[ext_resource type="PackedScene" uid="uid://bbvl6dppfdii7" path="res://Modelos interactivos/edificio.glb" id="11_u8qcs"]
 [ext_resource type="PackedScene" uid="uid://b3ckg0lh7pnhp" path="res://Modelos interactivos/joselineTienda (1).glb" id="12_ewfuk"]
 [ext_resource type="PackedScene" uid="uid://i5neq5wwy0i6" path="res://terreno/complemento Edificios/Models/GLTF format/large_buildingG.glb" id="12_yf7ds"]
+[ext_resource type="PackedScene" uid="uid://ddvfb45ap2h4b" path="res://Modelos interactivos/edificio (3).glb" id="14_w05dh"]
+[ext_resource type="PackedScene" uid="uid://bttlydohpsem7" path="res://Modelos interactivos/edificioInterior(2).glb" id="15_w05dh"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_a6y7u"]
 
@@ -64,7 +66,6 @@ shader_parameter/wave_speed = 1.0
 size = Vector3(12.0154, 7.24524, 12.6271)
 
 [node name="Mundo" type="Node3D"]
-transform = Transform3D(-0.88675, 0, -0.459706, 0, 0.998827, 0, 0.459706, 0, -0.88675, 0.08055, -1.90735e-06, 0.00136185)
 script = ExtResource("1_syf7j")
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
@@ -148,13 +149,16 @@ transform = Transform3D(-7.4753, 0, 18.5505, 0, 5, 0, -18.5505, 0, -7.4753, -302
 [node name="Construcciones" type="Node3D" parent="Entorno"]
 
 [node name="Casa" parent="Entorno/Construcciones" instance=ExtResource("8_rvffb")]
-transform = Transform3D(-1.99915, 0, -0.0518975, 0, 2.662, 0, 0.058181, 0, -1.78325, 56.1938, 6.38529, -108.833)
+transform = Transform3D(-2.49894, 0, -0.0648718, 0, 3.328, 0, 0.0727263, 0, -2.22906, 56.1938, 6.38529, -108.833)
 
 [node name="Area3D" type="Area3D" parent="Entorno/Construcciones/Casa"]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Entorno/Construcciones/Casa/Area3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, -3.78489e-06, 0, 1, 4.91791, 4.37305, -4.33022)
 shape = SubResource("BoxShape3D_syf7j")
+
+[node name="CasaInterior" parent="Entorno/Construcciones/Casa" instance=ExtResource("9_1pedo")]
+transform = Transform3D(0.716217, 0, -0.697878, 0, 1, 0, 0.697878, 0, 0.716217, 233.249, 14.0096, 0)
 
 [node name="Escuela_Frente (1)2" parent="Entorno/Construcciones" instance=ExtResource("10_5lbaf")]
 transform = Transform3D(-3.99984, 0, -0.0358144, 0, 4, 0, 0.0358144, 0, -3.99984, -11.4025, 14.3699, -7.79043)
@@ -165,11 +169,15 @@ transform = Transform3D(-3.99994, 0, 0.0217809, 0, 4, 0, -0.0217809, 0, -3.99994
 [node name="joselineTienda (1)" parent="Entorno/Construcciones" instance=ExtResource("12_ewfuk")]
 transform = Transform3D(0.0141019, 0, 0.999901, 0, 1, 0, -0.999901, 0, 0.0141019, -67.2592, 19.6732, 63.9151)
 
-[node name="edificio" parent="Entorno/Construcciones" instance=ExtResource("11_u8qcs")]
-transform = Transform3D(-3.99967, 0, -0.0516607, 0, 4, 0, 0.0516607, 0, -3.99967, -11.668, 0, 67.7387)
-
 [node name="large_buildingG2" parent="Entorno/Construcciones" instance=ExtResource("12_yf7ds")]
 transform = Transform3D(-29.9982, 0, -0.332477, 0, 30, 0, 0.332477, 0, -29.9982, -75.3365, 32.1296, 144.28)
+visible = false
+
+[node name="edificio (3)" parent="Entorno/Construcciones" instance=ExtResource("14_w05dh")]
+transform = Transform3D(-3.99999, 0, 0.00935473, 0, 4, 0, -0.00935473, 0, -3.99999, -10.8522, 18.4522, 67.8345)
+
+[node name="edificioInterior(2)" parent="Entorno/Construcciones/edificio (3)" instance=ExtResource("15_w05dh")]
+transform = Transform3D(0.559346, 0, -0.42087, 0, 0.7, 0, 0.42087, 0, 0.559346, 147.502, 20.293, 37.1379)
 
 [node name="Malla" type="Node3D" parent="Entorno"]
 
@@ -187,6 +195,6 @@ metadata/_editor_floor_ = Vector3(0, 1, 0)
 transform = Transform3D(-48.4292, 7.13083, -10.1864, -0.252813, 40.3878, 29.4747, 12.4317, 28.6002, -39.083, -119.791, 200.285, -232.389)
 
 [node name="Camera3D" type="Camera3D" parent="Camara"]
-transform = Transform3D(0.0195773, 0.0024761, -0.00339669, -0.00247973, 0.0198685, 0.000191207, 0.00339404, 0.000233709, 0.0197324, -1.526, -0.0342753, -2.58454)
+transform = Transform3D(0.0859457, -0.000658258, 0.00603907, 0.00189734, 0.0198745, 0.00805923, -0.00803348, -0.00234843, 0.0665114, 0.236292, 0.375017, -0.867102)
 
 [connection signal="input_event" from="Entorno/Construcciones/Casa/Area3D" to="." method="_on_area_3d_input_event"]
