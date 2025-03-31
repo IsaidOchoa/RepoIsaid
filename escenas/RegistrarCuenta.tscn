@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://cjf854jp6gbyv"]
+[gd_scene load_steps=12 format=3 uid="uid://cjf854jp6gbyv"]
 
 [ext_resource type="Texture2D" uid="uid://cl0rnyj3re4wu" path="res://escenas/dinosaurio.png" id="1_h5mpr"]
 [ext_resource type="Script" uid="uid://dnjd2gflciqdi" path="res://scrips/registrar_cuenta.gd" id="1_onx2d"]
@@ -55,6 +55,13 @@ corner_radius_top_right = 20
 corner_radius_bottom_right = 20
 corner_radius_bottom_left = 20
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_onx2d"]
+bg_color = Color(0.14902, 0.27451, 0.32549, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+
 [node name="Control" type="Control"]
 layout_mode = 3
 anchor_right = 1.175
@@ -78,13 +85,13 @@ offset_bottom = 168.265
 theme_override_styles/panel = SubResource("StyleBoxFlat_rwm1l")
 
 [node name="Estegosaurio" type="Sprite2D" parent="Panel"]
-position = Vector2(1034, 84)
-scale = Vector2(0.419922, 0.455078)
+position = Vector2(1031.38, 84.875)
+scale = Vector2(0.311035, 0.285644)
 texture = ExtResource("3_tkf05")
 
 [node name="Dinosaurio" type="Sprite2D" parent="Panel"]
-position = Vector2(113, 107)
-scale = Vector2(0.367188, 0.378906)
+position = Vector2(152, 90)
+scale = Vector2(0.25, 0.236328)
 texture = ExtResource("1_h5mpr")
 
 [node name="Titulo de la pagina" type="Label" parent="Panel"]
@@ -218,5 +225,15 @@ offset_right = 924.0
 offset_bottom = 527.0
 text = "error mensaje"
 horizontal_alignment = 1
+
+[node name="BackButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 25.0
+offset_right = 138.0
+offset_bottom = 65.0
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxFlat_onx2d")
+text = "Atrás"
 
 [connection signal="pressed" from="RegistrarButton" to="." method="_on_registrar_button_pressed"]

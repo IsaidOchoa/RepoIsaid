@@ -4,6 +4,10 @@ func _ready():
 	# conexion a firebase
 	Firebase.Auth.signup_succeeded.connect(on_signup_succeeded)
 	Firebase.Auth.signup_failed.connect(on_signup_failed)
+	# Conectar botón "Atrás" a la función
+	get_node("BackButton").pressed.connect(_on_back_button_pressed)
+
+	
 
 func on_signup_succeeded(auth):
 	print(auth)
@@ -14,12 +18,15 @@ func on_signup_failed(error_code, massage):
 	print(massage)
 	%Error.text=traducir_error(massage)
 	%Error.visible=true
+	
+func _on_back_button_pressed() -> void:
+	get_tree().change_scene_to_file("res://escenas/control.tscn")
 
 func _on_registrar_button_pressed() -> void:
 	var email = %EmailText.text
 	var password = %PasswordText.text
 	Firebase.Auth.signup_with_email_and_password(email, password)
-
+	
 func traducir_error(error_code):
 	if firebase_errores.has(error_code):
 		return firebase_errores[error_code]
