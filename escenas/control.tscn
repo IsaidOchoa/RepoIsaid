@@ -1,6 +1,9 @@
-[gd_scene load_steps=7 format=3 uid="uid://bn3oc7flm6il3"]
+[gd_scene load_steps=10 format=3 uid="uid://bn3oc7flm6il3"]
 
 [ext_resource type="Script" uid="uid://bv5p54xh4ogxb" path="res://scrips/control.gd" id="1_ffvlt"]
+[ext_resource type="Texture2D" uid="uid://bar6212d6ln2g" path="res://escenas/invisible.png" id="2_3bkg3"]
+[ext_resource type="Texture2D" uid="uid://cl0rnyj3re4wu" path="res://escenas/dinosaurio.png" id="2_6m6ia"]
+[ext_resource type="Texture2D" uid="uid://8t2edvgum1ks" path="res://escenas/estegosaurio.png" id="3_3bkg3"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_uchyk"]
 bg_color = Color(1, 0.698039, 0.172549, 1)
@@ -130,6 +133,24 @@ theme_override_colors/font_color = Color(0.352941, 0.352941, 0.352941, 1)
 theme_override_styles/normal = SubResource("StyleBoxFlat_0fbet")
 placeholder_text = "Ingresa tu contraseña"
 alignment = 1
+secret = true
+
+[node name="TextureButton" type="TextureButton" parent="Panel/Contraseña"]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -52.0
+offset_top = -20.0
+offset_right = -12.0
+offset_bottom = 20.0
+grow_horizontal = 0
+grow_vertical = 2
+texture_normal = ExtResource("2_3bkg3")
+ignore_texture_size = true
+stretch_mode = 4
 
 [node name="Errores" type="Label" parent="Panel"]
 unique_name_in_owner = true
@@ -141,6 +162,16 @@ offset_right = 925.0
 offset_bottom = 460.0
 text = "error etiqueta"
 horizontal_alignment = 1
+
+[node name="Dinosaurio" type="Sprite2D" parent="Panel"]
+position = Vector2(129, 97)
+scale = Vector2(0.28125, 0.257324)
+texture = ExtResource("2_6m6ia")
+
+[node name="Estegosaurio" type="Sprite2D" parent="Panel"]
+position = Vector2(1036, 96)
+scale = Vector2(0.34668, 0.325195)
+texture = ExtResource("3_3bkg3")
 
 [connection signal="pressed" from="Panel/BIngresar" to="." method="_on_b_ingresar_pressed"]
 [connection signal="pressed" from="Panel/BCuenta" to="." method="_on_b_cuenta_pressed"]
