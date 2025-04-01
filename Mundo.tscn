@@ -1,8 +1,9 @@
-[gd_scene load_steps=25 format=3 uid="uid://c57j8kk4h0e4e"]
+[gd_scene load_steps=27 format=3 uid="uid://c57j8kk4h0e4e"]
 
 [ext_resource type="Shader" uid="uid://cngq07g76wa7l" path="res://mundo.gdshader" id="1_gkpbq"]
 [ext_resource type="Script" uid="uid://cectcb3i57cu8" path="res://scrips/mundo.gd" id="1_syf7j"]
 [ext_resource type="MeshLibrary" uid="uid://dfdmd68peu4yd" path="res://terreno/modelos.tres" id="2_g8a5c"]
+[ext_resource type="AudioStream" uid="uid://db63ty2xd6h7r" path="res://Music/Woody Path.mp3" id="2_vblcf"]
 [ext_resource type="PackedScene" uid="uid://djgm4up7p6hui" path="res://terreno/complemento Terrenos/Models/FBX format/patch-sand.fbx" id="3_6eh68"]
 [ext_resource type="PackedScene" uid="uid://l66ra4gqr16e" path="res://terreno/complemento Terrenos/Models/FBX format/patch-grass.fbx" id="4_qatul"]
 [ext_resource type="PackedScene" uid="uid://bglvbpsbupu6d" path="res://terreno/complemento Terrenos/Models/FBX format/rocks-a.fbx" id="5_jgiah"]
@@ -16,6 +17,7 @@
 [ext_resource type="PackedScene" uid="uid://i5neq5wwy0i6" path="res://terreno/complemento Edificios/Models/GLTF format/large_buildingG.glb" id="12_yf7ds"]
 [ext_resource type="PackedScene" uid="uid://ddvfb45ap2h4b" path="res://Modelos interactivos/edificio (3).glb" id="14_w05dh"]
 [ext_resource type="PackedScene" uid="uid://bttlydohpsem7" path="res://Modelos interactivos/edificioInterior(2).glb" id="15_w05dh"]
+[ext_resource type="PackedScene" uid="uid://c1aky0gb05vhy" path="res://escenas/OverlayUI.tscn" id="17_7dq3s"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_a6y7u"]
 
@@ -63,10 +65,15 @@ shader_parameter/wave_size = Vector2(2, 2)
 shader_parameter/wave_speed = 1.0
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_syf7j"]
-size = Vector3(12.0154, 7.24524, 12.6271)
+size = Vector3(13.536, 8.92307, 13.5871)
 
 [node name="Mundo" type="Node3D"]
 script = ExtResource("1_syf7j")
+
+[node name="WoodyPath" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_vblcf")
+autoplay = true
+bus = &"Music"
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_n2q4y")
@@ -154,7 +161,7 @@ transform = Transform3D(-2.49894, 0, -0.0648718, 0, 3.328, 0, 0.0727263, 0, -2.2
 [node name="Area3D" type="Area3D" parent="Entorno/Construcciones/Casa"]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Entorno/Construcciones/Casa/Area3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, -3.78489e-06, 0, 1, 4.91791, 4.37305, -4.33022)
+transform = Transform3D(1, 0, 1.11759e-08, 0, 1, 0, -3.76999e-06, 0, 0.999999, 4.88122, 4.58913, -3.8502)
 shape = SubResource("BoxShape3D_syf7j")
 
 [node name="CasaInterior" parent="Entorno/Construcciones/Casa" instance=ExtResource("9_1pedo")]
@@ -196,5 +203,7 @@ transform = Transform3D(-48.4292, 7.13083, -10.1864, -0.252813, 40.3878, 29.4747
 
 [node name="Camera3D" type="Camera3D" parent="Camara"]
 transform = Transform3D(0.0859457, -0.000658258, 0.00603907, 0.00189734, 0.0198745, 0.00805923, -0.00803348, -0.00234843, 0.0665114, 0.236292, 0.375017, -0.867102)
+
+[node name="Control" parent="Camara/Camera3D" instance=ExtResource("17_7dq3s")]
 
 [connection signal="input_event" from="Entorno/Construcciones/Casa/Area3D" to="." method="_on_area_3d_input_event"]

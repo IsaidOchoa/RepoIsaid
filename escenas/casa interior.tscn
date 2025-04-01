@@ -1,0 +1,39 @@
+[gd_scene load_steps=6 format=3 uid="uid://b65eci5jdh23k"]
+
+[ext_resource type="PackedScene" uid="uid://y6qtdidjc6kn" path="res://Modelos interactivos/CasaInterior.glb" id="1_rnj3y"]
+[ext_resource type="PackedScene" uid="uid://s7ijr2mberhq" path="res://boton_salir_mapa.tscn" id="2_dc1ki"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_rnj3y"]
+sky_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
+ground_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
+
+[sub_resource type="Sky" id="Sky_dc1ki"]
+sky_material = SubResource("ProceduralSkyMaterial_rnj3y")
+
+[sub_resource type="Environment" id="Environment_tx6nb"]
+background_mode = 2
+sky = SubResource("Sky_dc1ki")
+tonemap_mode = 2
+glow_enabled = true
+
+[node name="Node3D" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_tx6nb")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.866023, -0.433016, 0.250001, 0, 0.499998, 0.866027, -0.500003, 0.749999, -0.43301, 0, 0, 0)
+shadow_enabled = true
+
+[node name="CasaInterior" parent="." instance=ExtResource("1_rnj3y")]
+metadata/_edit_group_ = true
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.6013, 9.11622, 11.3158)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="BotonSalirMapa" parent="CanvasLayer" instance=ExtResource("2_dc1ki")]
+offset_right = 1024.0
+offset_bottom = 1024.0
+scale = Vector2(0.1, 0.1)
