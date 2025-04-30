@@ -1,0 +1,30 @@
+[gd_scene load_steps=5 format=3 uid="uid://c0nkpwl2sco7c"]
+
+[ext_resource type="PackedScene" uid="uid://bttlydohpsem7" path="res://Modelos interactivos/edificioInterior(2).glb" id="1_15c02"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_3bcoe"]
+sky_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
+ground_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
+
+[sub_resource type="Sky" id="Sky_0ciwk"]
+sky_material = SubResource("ProceduralSkyMaterial_3bcoe")
+
+[sub_resource type="Environment" id="Environment_vb2pq"]
+background_mode = 2
+sky = SubResource("Sky_0ciwk")
+tonemap_mode = 2
+glow_enabled = true
+
+[node name="Edificio_Interior" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_vb2pq")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.99862, -0.0524366, 0.00293095, 0.00266066, 0.00522319, 0.999983, -0.0524511, 0.998611, -0.00507647, -20.0178, -0.632077, -3.38851)
+shadow_enabled = true
+
+[node name="edificioInterior(2)" parent="." instance=ExtResource("1_15c02")]
+
+[node name="Camera3D" type="Camera3D" parent="edificioInterior(2)"]
+transform = Transform3D(0.834723, -0.325415, 0.444233, 0, 0.806713, 0.590944, -0.55067, -0.493274, 0.673382, 11.9336, 12.2392, 8.95079)

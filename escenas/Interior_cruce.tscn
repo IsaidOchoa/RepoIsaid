@@ -1,0 +1,71 @@
+[gd_scene load_steps=12 format=3 uid="uid://cbw28igobaqkq"]
+
+[ext_resource type="PackedScene" uid="uid://07kim7ag8si5" path="res://terreno/Models/GLB format/block-grass-large.glb" id="1_xn0xn"]
+[ext_resource type="MeshLibrary" uid="uid://dfdmd68peu4yd" path="res://terreno/modelos.tres" id="2_gwgll"]
+[ext_resource type="PackedScene" uid="uid://dtiw35t74q1f3" path="res://terreno/complemento Calles/Models/GLB format/sign-highway.glb" id="3_w0pi5"]
+[ext_resource type="PackedScene" uid="uid://u356b4uldsf7" path="res://terreno/complemento Calles/traffic_light__semaforo.glb" id="4_teoeo"]
+[ext_resource type="PackedScene" uid="uid://dxxivl8msyr5u" path="res://terreno/complemento Autos/Models/FBX format/sedan-sports.fbx" id="5_fr7js"]
+[ext_resource type="PackedScene" uid="uid://df4v2qdn20qjv" path="res://terreno/complemento Autos/Models/FBX format/police.fbx" id="6_tkyhq"]
+[ext_resource type="PackedScene" uid="uid://c5tp0q4sbs05x" path="res://terreno/complemento Calles/stopsign3.glb" id="7_w0pi5"]
+[ext_resource type="PackedScene" uid="uid://ddlsiep6ttf5j" path="res://terreno/complemento Calles/TrafficSign.fbx" id="8_teoeo"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_krb5p"]
+sky_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
+ground_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
+
+[sub_resource type="Sky" id="Sky_t4sy6"]
+sky_material = SubResource("ProceduralSkyMaterial_krb5p")
+
+[sub_resource type="Environment" id="Environment_483ba"]
+background_mode = 2
+sky = SubResource("Sky_t4sy6")
+tonemap_mode = 2
+glow_enabled = true
+
+[node name="Cruce" type="Node3D"]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.866023, -0.433016, 0.250001, 0, 0.499998, 0.866027, -0.500003, 0.749999, -0.43301, 0, 0, 0)
+shadow_enabled = true
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_483ba")
+
+[node name="Objetos" type="Node3D" parent="."]
+
+[node name="Sketchfab_Scene" parent="Objetos" instance=ExtResource("4_teoeo")]
+transform = Transform3D(0.0176344, 0, 0.349555, 0, 0.259499, 0, -0.349555, 0, 0.0176344, 0.960108, 1.03265, 0.971178)
+
+[node name="Sketchfab_Scene2" parent="Objetos" instance=ExtResource("4_teoeo")]
+transform = Transform3D(0.349545, 0, -0.0178481, 0, 0.27967, 0, 0.0178481, 0, 0.349545, 0.959924, 1.00828, 0.971321)
+
+[node name="police" parent="Objetos" instance=ExtResource("6_tkyhq")]
+transform = Transform3D(-0.007388, 0, 0.199863, 0, 0.2, 0, -0.199863, 0, -0.007388, 0.620579, 0.980234, 1.32366)
+
+[node name="sedan-sports" parent="Objetos" instance=ExtResource("5_fr7js")]
+transform = Transform3D(-0.0132304, 0, -0.199562, 0, 0.2, 0, 0.199562, 0, -0.0132304, 2.37594, 1.00662, 1.69303)
+
+[node name="sign-highway2" parent="Objetos" instance=ExtResource("3_w0pi5")]
+transform = Transform3D(-0.0190928, 0, 0.999818, 0, 1, 0, -0.999818, 0, -0.0190928, 1.50017, 1.00758, 0.203233)
+
+[node name="stopsign3" parent="Objetos" instance=ExtResource("7_w0pi5")]
+transform = Transform3D(0.09, 0, 0, 0, 0.09, 0, 0, 0, 0.09, 0.941307, 1.17126, 2.03317)
+
+[node name="TrafficSign" parent="Objetos" instance=ExtResource("8_teoeo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.2215, 1.04262, 0.505447)
+
+[node name="Terreno" type="Node3D" parent="."]
+
+[node name="block-grass-large2" parent="Terreno" instance=ExtResource("1_xn0xn")]
+transform = Transform3D(10, 0, 0, 0, 1, 0, 0, 0, 8, -4.70621, -0.0106571, -4.70182)
+
+[node name="GridMap" type="GridMap" parent="Terreno"]
+mesh_library = ExtResource("2_gwgll")
+cell_size = Vector3(1, 2, 1)
+data = {
+"cells": PackedInt32Array(65535, 1, 655568, 65534, 1, 655568, 65533, 1, 655568, 65532, 1, 208, 65531, 1, 208, 65530, 1, 208, 65528, 1, 208, 3, 1, 208, 4, 1, 208, 5, 1, 208, 6, 1, 208, 7, 1, 208, 65529, 1, 208, 1, 1, 164, 0, 1, 208, 2, 1, 208, 1, 2, 1442000, 1, 3, 1442000, 1, 0, 1048784, 1, 65535, 1442000, 1, 4, 1442000, 1, 65534, 1442000, 1, 65533, 1442000, 1, 65532, 1442000, 1, 5, 1442000, 1, 65531, 1442000, 1, 65530, 1442000, 1, 65529, 1442000, 1, 65528, 1442000, 1, 65527, 1442000, 1, 65526, 1442000, 1, 65525, 1442000, 1, 65524, 1442000, 65527, 1, 655568, 65526, 1, 655568, 65525, 1, 655568, 65524, 1, 655568, 65523, 1, 655568, 65522, 1, 655568, 65521, 1, 655568, 1, 65523, 1048784, 1, 65522, 1048784)
+}
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.792887, -0.297211, 0.531974, 0.0112698, 0.879994, 0.474851, -0.609265, -0.370508, 0.701085, 2.4238, 1.64746, 2.38546)
+fov = 69.7018
